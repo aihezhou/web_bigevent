@@ -1,0 +1,33 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background:url(../images/login_bg.jpg) no-repeat center;
+    background-size: cover;
+}
+.box {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-75%);
+    width: 450px;
+    height: 300px;
+    background-color: #fff;
+}
+
+.login,.reg {
+    position: relative;
+    padding: 15px 30px;
+}
+.head {
+    height: 25px;
+    background: url(../images/login_title.png) no-repeat center;
+    margin-bottom: 15px;
+}
+#link_login,#link_reg {
+    float: right;
+}
+.reg {
+    display: none;
+}
